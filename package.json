@@ -1,0 +1,20 @@
+{
+  "name": "TwitchPlaysTinder",
+  "description": "crowd sourced tinder shenanigans",
+  "version": "0.0.1",
+  "author": "Eric Song, Sam Agnew, Manny",
+  "scripts": {
+    "start": "server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/sagnew/TwitchPlaysTinder"
+  },
+  "engines": {
+    "node": "0.8.x",
+    "npm": "1.2.x"
+  },
+  "dependencies": {
+    "passport-facebook": "1.0.3"
+ }
+}
