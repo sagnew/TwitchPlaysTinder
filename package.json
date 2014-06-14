@@ -15,6 +15,9 @@
     "npm": "1.2.x"
   },
   "dependencies": {
-    "passport-facebook": "1.0.3"
+    "passport-facebook": "1.0.3",
+    "ejs": ">= 0.0.0",
+    "express": "3.x",
+    "passport": "0.2.0"
  }
 }
