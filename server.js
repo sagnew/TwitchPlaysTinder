@@ -7,6 +7,7 @@ var FACEBOOK_APP_ID = "251350521731714";
 var FACEBOOK_APP_SECRET = "37353611ad45a082cde5b109b72fcb83";
 
 var auth___token;
+var fb___id;
 
 // Passport session setup.
 //   To support persistent login sessions, Passport needs to be able to
@@ -56,7 +57,8 @@ passport.use(new FacebookStrategy({
  //
  //
  //
-  
+ 
+      fb___id = profile.id; 
       auth___token = accessToken;
     // asynchronous verification, for effect...
     process.nextTick(function () {
