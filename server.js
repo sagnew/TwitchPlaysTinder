@@ -32,7 +32,7 @@ passport.deserializeUser(function(obj, done) {
 passport.use(new FacebookStrategy({
     clientID: FACEBOOK_APP_ID,
     clientSecret: FACEBOOK_APP_SECRET,
-    callbackURL: "http://samshreds:3500/auth/facebook/callback"
+    callbackURL: "http://samshreds.com:3500/auth/facebook/callback"
   },
   function(accessToken, refreshToken, profile, done) {
 
