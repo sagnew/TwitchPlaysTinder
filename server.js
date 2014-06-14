@@ -34,7 +34,30 @@ passport.use(new FacebookStrategy({
     callbackURL: "http://localhost:3000/auth/facebook/callback"
   },
   function(accessToken, refreshToken, profile, done) {
-    auth___token = accessToken;
+
+ ////////////////SAM READ THIS
+ //
+ //
+ //
+ //
+ //
+ //
+ //
+ //
+ //
+ // authenticate here
+ // 
+ //
+ //
+ //
+ //
+ //
+ //
+ //
+ //
+ //
+  
+      auth___token = accessToken;
     // asynchronous verification, for effect...
     process.nextTick(function () {
       
